@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         DataService ds = new();
-        int[] array = { 9, 3, 7, 1, 5, 5, 3, 2, 1, 7 };
+        int[] array = { 9, 3, 7, 1, 5, 5, 3, 2, 1, 7};
         Console.Title = "Спринт #4 | Выполнил: Фабрициус А. О. | ИСТНб-24-1";
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #4                                                               *");

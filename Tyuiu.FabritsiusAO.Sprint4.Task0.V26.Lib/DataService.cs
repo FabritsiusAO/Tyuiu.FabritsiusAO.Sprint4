@@ -11,7 +11,7 @@ namespace Tyuiu.FabritsiusAO.Sprint4.Task0.V26.Lib
             {
                 if (array[i] % 2 != 0)
                 {
-                    res += array[i]; i++;
+                    res += array[i];
                 }
             }
             return res;

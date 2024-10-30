@@ -9,10 +9,10 @@ namespace Tyuiu.FabritsiusAO.Sprint4.Task0.V26.Test
         public void TestMethod1()
         {
             DataService ds = new();
-            int[] array = [1, 2, 3, 4, 5];
+            int[] array = { 1, 0, 3, 0, 5, 5, 5, 5 };
             int res = ds.GetSumOddArrEl(array);
-            int wait = 9;
-            Assert.AreEqual(res, wait);
+            int wait = 24;
+            Assert.AreEqual(wait, res);
 
         }
     }
