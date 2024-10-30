@@ -10,7 +10,7 @@ namespace Tyuiu.FabritsiusAO.Sprint4.Task1.V9.Test
             DataService ds = new();
             int[] array = { 1, 2, 3, 4, 5, 6 };
             int res = ds.Calculate(array);
-            int wait = 12;
+            int wait = 48;
             Assert.AreEqual(wait, res);
         }
     }
