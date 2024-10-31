@@ -12,9 +12,9 @@ namespace Tyuiu.FabritsiusAO.Sprint4.Task3.V12.Test
 
 
 
-            int[,] restest = { { 9, 7, 4, 9, 7 }, { 5, 2, 5, 7, 6 }, { 8, 3, 3, 5, 7 }, { 8, 4, 2, 4, 5 }, { 8, 8, 9, 5, 6 } };
+            int[,] restest = { { 1, 7, 4, 9, 7 }, { 1, 1, 5, 1, 6 }, { 1, 3, 3, 1, 7 }, { 8, 4, 2, 4, 5 }, { 8, 8, 9, 1, 6 } };
             int res = ds.Calculate(restest);
-            int wait = 3;
+            int wait = 2;
             Assert.AreEqual(wait, res);
         }
     }

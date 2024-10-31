@@ -8,8 +8,8 @@ namespace Tyuiu.FabritsiusAO.Sprint4.Task3.V12.Lib
             int row = array.GetUpperBound(0) + 1;
             int col = array.Length / row;
             int res = 10;
-            for (int i = 2; i < row - 2; i++)
-                for (int j = 0; j < col; j++)
+            for (int i = 0; i < row; i++)
+                for (int j = 2; j < col - 2; j++)
                     if (array[i, j] < res)
                         res = array[i, j];
             return res;
